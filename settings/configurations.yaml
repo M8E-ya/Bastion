@@ -38,7 +38,7 @@ music:
   # How many passes Bastion dispatcher should take when sending packets to
   # reduce packet loss for music. Values over 5 aren't recommended, as it means
   # you are using 5x more bandwidth.
-  passes: 1
+  passes: 5
 
 # Log level for Bastion's logging. A lower value means less clutter in the
 # console and a higher value means more details in the console.
